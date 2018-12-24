@@ -1,6 +1,7 @@
 const firebase = require("firebase-admin");
 // const firebase = require("firebase");
 
+// link service account to the location of your firebase json config file
 var serviceAccount = require("./storymapapp-firebase-adminsdk-jfatz-22b726c073.json");
 
 firebase.initializeApp({
